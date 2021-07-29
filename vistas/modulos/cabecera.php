@@ -2,9 +2,42 @@
 
     $servidor = Ruta::ctrRutaServidor(); 
 	$url = Ruta::ctrRuta();
+/*
+    $readJson = "";
+    $archivoConfig = "$url/config.txt";
+    $config = fopen($archivoConfig, "r");
 
-    //var_dump("Desde la cabecera");
+    while(!feof($config)){          
+        $readJson .= (string) fgets($config, 1024);
+    }
 
+    $cabeceraText = get_object_vars(json_decode($readJson));
+
+    foreach ($cabeceraText as $key => $value) {
+        if (is_object($value)) {
+
+            $valueArray = get_object_vars($value);
+            $remplazar = array($key => $valueArray);
+            $fullArray = array_replace($cabeceraText, $remplazar);
+            $cabeceraText = $fullArray;
+            
+            foreach ($value as $key1 => $value1) {
+                if (is_object($value1)) {
+    
+                    $valueArray1 = get_object_vars($value1);
+                    $remplazar1 = array($key1 => $valueArray1);
+                    $fullArray1 = array_replace($valueArray, $remplazar1);
+                    $valueArray = $fullArray1;
+               
+                }
+            }
+        }
+    }
+
+    $remplazar = array("carreras" => $fullArray1);
+    $fullArray = array_replace($cabeceraText, $remplazar);
+    var_dump($fullArray);
+*/
 ?>
 
 <!--=====================================
@@ -25,13 +58,28 @@ Cabecera #12385b
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
+
+                        <?php
+
+                            //foreach ($fullArray as $key => $value) {
+                            //    echo '<li><a class="nav-link" href="#">'.$value.'</a></li>';
+                            //}
+                            
+
+                        ?>
+
+
+<!--
                         <li><a class="nav-link active" href="<?php echo $url ?>">Inicio</a></li>
-                        <!-- IMPLEMENTACION DEL ABOUT ME
+
+                        IMPLEMENTACION DEL ABOUT ME
                         <li><a class="nav-link" href="about.html">¿Quiénes somos?</a></li>
-                        -->
+                        
+
                         <li class="nav-item dropdown dropdown-hover"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oferta Educativa</a>
                             <ul>
                                 <div class="dropdown-menu dropdown-hover-menu" aria-labelledby="navbarDropdownMenuLink">
+
                                     <a class="dropdown-item" href="LCE.html"> Ciencias de la Educación </a>
                                     <a class="dropdown-item" href="LC.html"> Criminología </a>
                                     <a class="dropdown-item" href="LD.html"> Derecho </a>
@@ -40,10 +88,13 @@ Cabecera #12385b
                                     <a class="dropdown-item" href="LNI.html"> Negocios Internacionales </a>
                                     <a class="dropdown-item" href="LF.html"> Filosofía </a>
                                     <a class="dropdown-item" href="LMA.html"> Medios Audiovisuales </a>
+
                                 </div>
                             </ul>
                         </li>
+
                         <li><a class="nav-link" href="#formulario">Contacto</a></li>
+
                         <li class="nav-item dropdown dropdown-hover"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestros Campus</a>
                             <ul>
                                 <div class="dropdown-menu dropdown-hover-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -52,7 +103,9 @@ Cabecera #12385b
                                 </div>
                             </ul>
                         </li>
+
                         <li><a class="nav-link" href="http://moodle.universidaddeensenada.edu.mx/">Aula Virtual</a></li>
+                        -->
                     </ul>
                 </div>
                 <!-- IMPLEMENTACION DEL BUSCADOR

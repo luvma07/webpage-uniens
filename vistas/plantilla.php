@@ -46,27 +46,29 @@
 </head>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
-    <!-- LOADER-->
+    <!-- LOADER
     <div id="preloader">
         <div class="loader">
             <img src="<?php echo $servidor; ?>images/loader.gif" alt="#" />
         </div>
     </div>
-    <!--end loader -->
+    end loader -->
 
     <?php
         include "modulos/cabecera.php";
 
-        //include "modulos/banner.php";
+        include "modulos/banner.php";
 
-        //include "modulos/sociales.php";
+        include "modulos/sociales.php";
 
-       // include "modulos/main.php";
+       include "modulos/main.php";
 
-        include "modulos/laeyl.php";
+        //include "modulos/laeyl.php";
 
-        //var_dump("Hola");
+        //
+
     ?>
+
 
     <!--=====================================
     SCRIPS JS 

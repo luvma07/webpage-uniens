@@ -1,0 +1,536 @@
+{
+   "0":{
+
+      "0":"INICIO",
+      "nombre":"INICIO",
+
+      "1": "$url",
+      "urlAmigable": "$url",
+
+   },
+   "cabeceraInicio":{
+
+      "0":"INICIO",
+      "nombre":"INICIO",
+
+      "1": "$url",
+      "urlAmigable": "$url",
+
+   },
+
+   "1":{
+      "0":"OFERTA EDUCATIVA",
+      "nombre":"OFERTA EDUCATIVA",
+
+      "1": "oferta-educativa",
+      "urlAmigable": "oferta-educativa",
+
+      "2":{
+
+         "0":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+         "lce":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+
+         "1":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+         "lc":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+
+         "2":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+         "ld":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+
+         "3":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+         "laeyl":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+
+         "4":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+         "lii":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+
+         "5":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+         "lni":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+
+         "6":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+         "lf":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+
+         "7":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+         "lma":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+      },
+
+      "carreras":{
+
+         "0":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+         "lce":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+
+         "1":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+         "lc":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+
+         "2":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+         "ld":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+
+         "3":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+         "laeyl":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+
+         "4":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+         "lii":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+
+         "5":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+         "lni":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+
+         "6":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+         "lf":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+
+         "7":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+         "lma":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+      },
+   },
+   "cabeceraOfertaEducativa":{
+
+      "0":"OFERTA EDUCATIVA",
+      "nombre":"OFERTA EDUCATIVA",
+
+      "1": "oferta-educativa",
+      "urlAmigable": "oferta-educativa",
+
+      "2":{
+
+         "0":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+         "lce":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+
+         "1":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+         "lc":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+
+         "2":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+         "ld":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+
+         "3":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+         "laeyl":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+
+         "4":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+         "lii":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+
+         "5":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+         "lni":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+
+         "6":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+         "lf":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+
+         "7":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+         "lma":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+      },
+
+      "carreras":{
+
+         "0":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+         "lce":{
+            "0":"Ciencias de la Educación",
+            "nombre":"Ciencias de la Educación",
+            "1":"ciencias-de-la-educacion",
+            "urlAmigable":"ciencias-de-la-educacion",
+         },
+
+         "1":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+         "lc":{
+            "0":"Criminología",
+            "nombre":"Criminología",
+            "1":"criminologia",
+            "urlAmigable":"criminologia",
+         },
+
+         "2":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+         "ld":{
+            "0":"Derecho",
+            "nombre":"Derecho",
+            "1":"derecho",
+            "urlAmigable":"derecho",
+         },
+
+         "3":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+         "laeyl":{
+            "0":"Administración de Empresas y Logística",
+            "nombre":"Administración de Empresas y Logística",
+            "1":"administracion-de-empresas-y-logistica",
+            "urlAmigable":"administracion-de-empresas-y-logistica",
+         },
+
+         "4":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+         "lii":{
+            "0":"Ingeniería Industrial",
+            "nombre":"Ingeniería Industrial",
+            "1":"ingenieria-industrial",
+            "urlAmigable":"ingenieria-industrial",
+         },
+
+         "5":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+         "lni":{
+            "0":"Negocios Internacionales",
+            "nombre":"Negocios Internacionales",
+            "1":"negocios-internacionales",
+            "urlAmigable":"negocios-internacionales",
+         },
+
+         "6":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+         "lf":{
+            "0":"Filosofía",
+            "nombre":"Filosofía",
+            "1":"filosofia",
+            "urlAmigable":"filosofia",
+         },
+
+         "7":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+         "lma":{
+            "0":"Medios Audiovisuales",
+            "nombre":"Medios Audiovisuales",
+            "1":"medios-audiovisuales",
+            "urlAmigable":"medios-audiovisuales",
+         },
+      },
+   },
+
+   "2":{
+
+      "0":"CONTACTO",
+      "nombre":"CONTACTO",
+
+      "1": "contacto",
+      "urlAmigable": "contacto",
+
+   },
+   "cabeceraContacto":{
+
+      "0":"CONTACTO",
+      "nombre":"CONTACTO",
+
+      "1": "contacto",
+      "urlAmigable": "contacto",
+
+   },
+   
+   "3":{
+      "0":"NUESTROS CAMPUS",
+      "nombre":"NUESTROS CAMPUS",
+      "1":{
+         "0":"Ensenada",
+         "Ensenada":"Ensenada",
+         "1":"San Quintín",
+         "sanQuintin":"San Quintín"
+      },
+      "campus":{
+         "0":"Ensenada",
+         "Ensenada":"Ensenada",
+         "1":"San Quintín",
+         "sanQuintin":"San Quintín"
+      },
+   },
+   "cabeceraNuestrosCampus":{
+      "0":"NUESTROS CAMPUS",
+      "nombre":"NUESTROS CAMPUS",
+      "1":{
+         "0":"Ensenada",
+         "Ensenada":"Ensenada",
+         "1":"San Quintín",
+         "sanQuintin":"San Quintín"
+      },
+      "campus":{
+         "0":"Ensenada",
+         "Ensenada":"Ensenada",
+         "1":"San Quintín",
+         "sanQuintin":"San Quintín"
+      },
+   },
+   
+   "4":{
+
+      "0":"AULA VIRTUAL",
+      "nombre":"AULA VIRTUAL",
+
+      "1": "aula-virtual",
+      "urlAmigable": "aula-virtual",
+
+   },
+   "cabeceraAulaVirtual":{
+
+      "0":"AULA VIRTUAL",
+      "nombre":"AULA VIRTUAL",
+
+      "1": "aula-virtual",
+      "urlAmigable": "aula-virtual",
+
+   },
+}
+
