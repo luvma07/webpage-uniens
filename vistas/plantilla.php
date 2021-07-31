@@ -61,7 +61,7 @@
 
         include "modulos/sociales.php";
 
-       include "modulos/main.php";
+       //include "modulos/main.php";
 
         //include "modulos/laeyl.php";
 

@@ -2,16 +2,28 @@
 
     $servidor = Ruta::ctrRutaServidor(); 
 	$url = Ruta::ctrRuta();
-/*
+
     $readJson = "";
-    $archivoConfig = "$url/config.txt";
+    $archivoConfig = "$url/configCabecera.txt";
     $config = fopen($archivoConfig, "r");
 
-    while(!feof($config)){          
+    while(!feof($config)){
         $readJson .= (string) fgets($config, 1024);
     }
 
-    $cabeceraText = get_object_vars(json_decode($readJson));
+    echo '<br><br>';
+    echo '<br><br>';
+    //var_dump($readJson);
+    //echo '<br><br>';
+
+    $JsonDecode = json_decode($readJson);
+    //var_dump($JsonDecode);
+    //echo '<br><br>';
+
+   $cabeceraText = get_object_vars($JsonDecode);
+
+    //var_dump($cabeceraText);
+    //echo '<br><br>';
 
     foreach ($cabeceraText as $key => $value) {
         if (is_object($value)) {
@@ -29,15 +41,70 @@
                     $fullArray1 = array_replace($valueArray, $remplazar1);
                     $valueArray = $fullArray1;
                
+                    foreach ($value1 as $key2 => $value2) {
+                        if (is_object($value2)) {
+            
+                            $valueArray2 = get_object_vars($value2);
+                            $remplazar2 = array($key2 => $valueArray2);
+                            $fullArray2 = array_replace($valueArray1, $remplazar2);
+                            $valueArray1 = $fullArray2;
+
+                            //var_dump($valueArray1);
+                            //echo '<br><br>';
+                            //var_dump($key1);
+                            //echo '<br><br>';
+                            //var_dump($key2);
+                            //echo '<br><br>';
+                            //var_dump($remplazar2);
+                            //echo '<br><br>';   
+                            //var_dump($valueArray2);
+                            //echo '<br><br>'; 
+                        }
+                    }    
+
+                /*      
+                            foreach ($value2 as $key3 => $value3) {
+                                if (is_object($value3)) {
+                    
+                                    $valueArray1 = get_object_vars($value2);
+                                    $remplazar3 = array($key1 => $valueArray1);
+                                    $fullArray3 = array_replace($valueArray, $remplazar3);
+                                    $valueArray = $fullArray3;
+                               
+                                }
+                            }
+                        }
+                    
+                    }
+                    */
                 }
             }
         }
     }
 
-    $remplazar = array("carreras" => $fullArray1);
-    $fullArray = array_replace($cabeceraText, $remplazar);
-    var_dump($fullArray);
-*/
+    var_dump($cabeceraText);
+    //echo '<br><br>';
+    //var_dump($fullArray1);
+    //echo '<br><br>';
+    //var_dump($fullArray2);
+    //echo '<br><br>';
+    //var_dump($key2);
+    //echo '<br><br>';
+    //var_dump($remplazar2);
+    //echo '<br><br>';   
+    //var_dump($valueArray2);
+    //echo '<br><br>';
+
+    //$remplazar1 = array("carreras" => $fullArray1);
+    //$fullArray = array_replace($cabeceraText, $remplazar1);
+    $remplazarCarreras = array("2" => $fullArray2);
+    $remplazarCarreras1 = array("carreras" => $fullArray2);
+    var_dump($remplazarCarreras);
+    echo '<br><br>';   
+    var_dump($remplazarCarreras1);
+    //$fullArray = array_replace($cabeceraText, $remplazar2);
+    //var_dump($fullArray);
+
 ?>
 
 <!--=====================================
